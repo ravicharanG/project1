@@ -202,7 +202,7 @@ span{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:0.85rem;
+    font-size:0.9rem;
     width:90%;
     margin-bottom:27px;
 
@@ -211,5 +211,48 @@ span{
 .hero-msg a{
     color:#007185
 }
+
+
+/** boxes-browse **/
+.browse{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2f7e6;
+}
+
+.box{
+    /* border:2px solid black; */
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding : 20px 0px 15px;
+    margin-top: 15px;
+   
+
+}
+
+.box-img{
+   height:300px;
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.box-content h2{
+    font-weight: 700;
+}
+
+.box-content p{
+    color:#007185 ;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 
