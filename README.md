@@ -1,1 +1,1 @@
-# This is my first html and css project
+# Amazon home page clone.
